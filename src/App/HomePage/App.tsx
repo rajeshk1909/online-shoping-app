@@ -1,4 +1,4 @@
-import ArraivalSection from "../../Components/ArraivalSection/ArraivalSection"
+// import ArraivalSection from "../../Components/ArraivalSection/ArraivalSection"
 import BestSelling from "../../Components/BestSelling/BestSelling"
 import CategorySection from "../../Components/CategorySection/CategorySection"
 import ExploreProduct from "../../Components/ExploreProduct/ExploreProduct"
@@ -22,13 +22,12 @@ const App = () => {
           <Slider />
         </div>
       </div>
-
       <div className='mx-10'>
         <ProductSection />
         <CategorySection />
         <BestSelling />
         <ExploreProduct />
-        <ArraivalSection />
+        {/* <ArraivalSection /> */}
       </div>
       <Footer />
     </main>

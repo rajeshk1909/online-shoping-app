@@ -20,7 +20,7 @@ export default function AccordionUsage() {
           }}
           className='md:ml-10 text-[#495057] font-bold mt-3 ml-3'
           aria-controls='panel1-content'>
-          <div className='ml-6'>
+          <div className='md:ml-6 ml-1'>
             Women's Fashion
             {menArrowIcon ? (
               <KeyboardArrowDownIcon />
@@ -48,7 +48,7 @@ export default function AccordionUsage() {
           }}
           className='md:ml-10 text-[#495057] font-bold mt-3 ml-3'
           aria-controls='panel2-content'>
-          <div className='ml-6'>
+          <div className='md:ml-6 ml-1'>
             Men's Fashion
             {womenArrowIcon ? (
               <KeyboardArrowDownIcon />
