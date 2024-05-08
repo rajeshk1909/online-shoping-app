@@ -1,5 +1,5 @@
 
-const productData = [
+export const productDatas = [
     {
         id: 1,
   product_name:"womems dress" ,
@@ -42,27 +42,27 @@ const productData = [
   star_rating:5 ,
     },{
         id: 6,
-  product_name:"womems dress" ,
-  product_price: 2000,
-  image_src: "https://images.unsplash.com/flagged/photo-1585052201332-b8c0ce30972f?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-  discount: 20,
-  review: 69,
-  star_rating:2 ,
+  product_name:"led tv" ,
+  product_price: 25000,
+  image_src: "https://images.unsplash.com/photo-1593305841991-05c297ba4575?q=80&w=1957&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+  discount: 25,
+  review: 83,
+  star_rating:4 ,
     },{
         id: 7,
-  product_name:"womems dress" ,
-  product_price: 2000,
-  image_src: "https://images.unsplash.com/flagged/photo-1585052201332-b8c0ce30972f?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+  product_name:"fan" ,
+  product_price: 2800,
+  image_src: "https://images.unsplash.com/photo-1609519479841-5fd3b2884e17?q=80&w=1886&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   discount: 20,
-  review: 69,
-  star_rating:2 ,
+  review: 73,
+  star_rating:3,
     },{
         id: 8,
-  product_name:"womems dress" ,
-  product_price: 2000,
-  image_src: "https://images.unsplash.com/flagged/photo-1585052201332-b8c0ce30972f?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+  product_name:"ac" ,
+  product_price: 30000,
+  image_src: "https://media.istockphoto.com/id/523832965/photo/air-conditioner-and-remote-control.jpg?s=2048x2048&w=is&k=20&c=qejcg_OEswZWqGeiV2F5jIxzlKKqIgrg3O1MoHvaulU=",
   discount: 20,
-  review: 69,
-  star_rating:2 ,
+  review: 71,
+  star_rating:5 ,
     },
 ]

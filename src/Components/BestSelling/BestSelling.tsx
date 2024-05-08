@@ -1,13 +1,9 @@
 import ProductCard from "../ProductCard/ProductCard"
 import jblSpeaker from "../../assets/jblSpeaker.svg"
-import { useSelector } from "react-redux"
-import { ProductRootState } from "../../Redux/features/productSlice"
+import { productDatas } from "../../const/productDatas"
 
 export default function BestSelling() {
-
-  const productData = useSelector(
-    (state: ProductRootState) => state.productData.productData
-  )
+  const productData = productDatas
 
   const newProductData = productData.filter((product: any) => product.id < 5)
 

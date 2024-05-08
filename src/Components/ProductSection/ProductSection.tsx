@@ -1,11 +1,9 @@
 import ProductCard from "../ProductCard/ProductCard"
-import { ProductRootState } from "../../Redux/features/productSlice"
-import { useSelector } from "react-redux"
+import { productDatas } from "../../const/productDatas"
+
 
 const ProductSection = () => {
-  const productData = useSelector(
-    (state: ProductRootState) => state.productData.productData
-  )
+  const productData = productDatas
 
   const newProductData = productData.filter((product: any) => product.id < 5)
 

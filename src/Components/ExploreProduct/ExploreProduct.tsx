@@ -1,14 +1,11 @@
-import { useSelector } from "react-redux"
-import { ProductRootState } from "../../Redux/features/productSlice"
 import leftArrow from "../../assets/leftArrow.svg"
 import rightArrow from "../../assets/rightArrow.svg"
 import ProductCard from "../ProductCard/ProductCard"
+import { productDatas } from "../../const/productDatas"
+
 
 export default function ExploreProduct() {
-  const productData = useSelector(
-    (state: ProductRootState) => state.productData.productData
-  )
-
+  const productData = productDatas
   return (
     <main>
       <div className='mt-10'>
